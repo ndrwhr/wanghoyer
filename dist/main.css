@@ -1,0 +1,112 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+/* END RESET */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.names {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.names__name {
+    flex: 1;
+    font-size: 4vw;
+}
+
+.amethyst {
+    font-family: 'Merriweather', serif;
+    height: 100%;
+}
+
+.amethyst__link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #fff9ef;
+    transition: background 200ms ease-out;
+}
+
+.amethyst__link:hover {
+    background: #ffedf3;
+}
+
+.andrew {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 100%;
+    background: #090F2F url("./images/andrew-background.svg") no-repeat center;
+    background-size: cover;
+}
+
+.andrew__link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgba(9, 15, 47, 0.6);
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: background 200ms ease-out;
+}
+
+.andrew__link:hover {
+    background: rgba(9, 15, 47, 0.8);
+}
